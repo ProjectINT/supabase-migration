@@ -1,0 +1,24 @@
+{
+  "name": "supabase-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "supabase migration new schema.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectINT/supabase-migration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProjectINT/supabase-migration/issues"
+  },
+  "homepage": "https://github.com/ProjectINT/supabase-migration#readme",
+  "dependencies": {
+    "postgres": "^3.4.5",
+    "supabase": "^2.19.7"
+  }
+}
