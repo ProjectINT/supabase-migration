@@ -1,0 +1,3 @@
+ALTER TABLE orders
+ALTER COLUMN amount TYPE NUMERIC(10, 2)
+USING amount::NUMERIC(10, 2);

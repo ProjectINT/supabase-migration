@@ -19,7 +19,7 @@ function hasNullByte(str) {
 
 async function getUsersOver() {
   const users = await sql`
-    SELECT id FROM users LIMIT 300 OFFSET 300;
+    SELECT id FROM users;
   `
 
   console.log('users', users.length);
